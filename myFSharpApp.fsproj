@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="SFish/Domain.fs"/>
+    <Compile Include="SFish/Deps.fs"/>
+    <Compile Include="SFish/Shapes.fs"/>
+    <Compile Include="Program.fs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+    <PackageReference Include="FSharp.Json" Version="0.4.0"/>
+  </ItemGroup>
+</Project>
